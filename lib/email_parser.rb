@@ -10,6 +10,6 @@ class EmailAddressParser
  end
  def parse
    split_emails=@emails.split(/[\s,]+/)
-   remove_duplicate=split_emails.
+   remove_duplicate=split_emails.uniq
  end
 end
